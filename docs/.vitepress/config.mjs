@@ -89,6 +89,11 @@ export default defineConfig({
             ['link', {
                 rel: 'icon',
                 href: 'favicon.ico'
+            }],
+            ['script', {
+                defer: true,
+                src: 'https://analytics.eu.umami.is/script.js',
+                'data-website-id': '999c665d-b59d-4143-a569-835f3099af48'
             }]
         ],
 
