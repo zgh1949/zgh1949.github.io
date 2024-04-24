@@ -42,33 +42,33 @@
  * - `danger`: Used to show error, or dangerous message to the users. Used
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
- @import './css/vp-code-group.css';
+@import './css/vp-code-group.css';
 
- :root {
-  --vp-c-default-1: var(--vp-c-gray-1);
-  --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: var(--vp-c-gray-3);
-  --vp-c-default-soft: var(--vp-c-gray-soft);
+:root {
+    --vp-c-default-1: var(--vp-c-gray-1);
+    --vp-c-default-2: var(--vp-c-gray-2);
+    --vp-c-default-3: var(--vp-c-gray-3);
+    --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+    --vp-c-brand-1: var(--vp-c-indigo-1);
+    --vp-c-brand-2: var(--vp-c-indigo-2);
+    --vp-c-brand-3: var(--vp-c-indigo-3);
+    --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
-  --vp-c-tip-1: var(--vp-c-brand-1);
-  --vp-c-tip-2: var(--vp-c-brand-2);
-  --vp-c-tip-3: var(--vp-c-brand-3);
-  --vp-c-tip-soft: var(--vp-c-brand-soft);
+    --vp-c-tip-1: var(--vp-c-brand-1);
+    --vp-c-tip-2: var(--vp-c-brand-2);
+    --vp-c-tip-3: var(--vp-c-brand-3);
+    --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+    --vp-c-warning-1: var(--vp-c-yellow-1);
+    --vp-c-warning-2: var(--vp-c-yellow-2);
+    --vp-c-warning-3: var(--vp-c-yellow-3);
+    --vp-c-warning-soft: var(--vp-c-yellow-soft);
 
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
+    --vp-c-danger-1: var(--vp-c-red-1);
+    --vp-c-danger-2: var(--vp-c-red-2);
+    --vp-c-danger-3: var(--vp-c-red-3);
+    --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
 /**
@@ -76,15 +76,15 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
-  --vp-button-brand-hover-border: transparent;
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-  --vp-button-brand-active-border: transparent;
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+    --vp-button-brand-border: transparent;
+    --vp-button-brand-text: var(--vp-c-white);
+    --vp-button-brand-bg: var(--vp-c-brand-3);
+    --vp-button-brand-hover-border: transparent;
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+    --vp-button-brand-active-border: transparent;
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
 /**
@@ -92,31 +92,31 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+            120deg,
+            #bd34fe 30%,
+            #41d1ff
+    );
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
-  --vp-home-hero-image-filter: blur(44px);
+    --vp-home-hero-image-background-image: linear-gradient(
+            -45deg,
+            #bd34fe 50%,
+            #47caff 50%
+    );
+    --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
+    :root {
+        --vp-home-hero-image-filter: blur(56px);
+    }
 }
 
 @media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
+    :root {
+        --vp-home-hero-image-filter: blur(68px);
+    }
 }
 
 /**
@@ -124,10 +124,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: var(--vp-c-text-1);
+    --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+    --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
 /**
@@ -135,6 +135,164 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+    --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/**
+ * MY STYLE
+ * --------------------------------------------------------------------------- */
+
+/* color overwrite */
+
+:root {
+    --vp-c-title: rgb(245, 245, 245);
+    --vp-c-bg-elv-opacity: rgba(255, 255, 255, 0.8);
+    --vp-button-brand-bg: #2171de;
+    --vp-c-text-me: #fff;
+    --vp-c-tagline-me: #adc6eb;
+}
+
+.dark {
+    --vp-c-title: #bd34fe;
+    --vp-c-bg-elv-opacity: #202127;
+    --vp-button-brand-bg: #202127;
+    --vp-c-tagline-me: #3c3f44;
+}
+
+/* Home Background */
+.VPContent.is-home {
+    background-image: url('/public/stardewbackground.png'); /* 设置背景图片 */
+    background-repeat: no-repeat; /* 根据需要设置是否重复 */
+    background-size: cover; /* 根据需要设置背景图片大小 */
+    background-attachment: fixed; /* 页面滚动时背景不动 */
+    padding-bottom: 128px;
+}
+
+.dark {
+    .VPContent.is-home {
+        background-image: none
+    }
+}
+
+
+/*** HOME Header ***/
+/* title in the left */
+@media (min-width: 960px) {
+    :not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.title > div > a > span {
+        filter: grayscale(1) contrast(999) invert(1)
+    }
+}
+
+/* home */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a.VPLink.link.VPNavBarMenuLink.active > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+/* notes */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(3) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+/* life */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(4) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+/* about */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(5) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+/* github */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > div.VPSocialLinks.VPNavBarSocialLinks.social-links > a {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+/*** HOME Hero ***/
+/* Big Text */
+#VPContent > div > div.VPHero.has-image.VPHomeHero > div > div.main > p.text {
+    color: var(--vp-c-text-me);
+}
+
+/* Sub Text */
+#VPContent > div > div.VPHero.has-image.VPHomeHero > div > div.main > p.tagline {
+    color: var(--vp-c-tagline-me);
+}
+
+/* button */
+.actions {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-left: -4px !important;
+    padding-left: 0 !important;
+    margin-top: -25px !important;
+}
+
+.VPButton {
+    color: var(--vp-c-title) !important;
+    display: inline-block !important;
+    border: none !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    transition: color 0.25s, border-color 0.25s, background-color 0.25s !important;
+}
+
+.VPButton.medium {
+    /*border-radius: 20px !important;*/
+    padding: 0 0 !important;
+    line-height: 38px !important;
+    font-size: 14px !important;
+}
+
+.VPButton.brand {
+    border-color: var(--vp-button-brand-border) !important;
+    color: var(--vp-button-brand-text) !important;
+    background-color: var(--vp-button-brand-bg) !important;
+}
+
+
+/*** HOME Feature ***/
+.VPLink.VPFeature {
+    background-color: var(--vp-c-bg-elv-opacity); /* 设置背景颜色 */
+}
+
+/*** HOME Timeline ***/
+#VPContent {
+    padding-bottom: 0;
+}
+
+#VPContent > div > div.vp-doc.container > div {
+    background-color: var(--vp-c-bg-elv-opacity); /* 设置背景颜色 */
+    border: 1px;
+    border-radius: 15px;
+    margin: 20px 0 5px;
+    padding: 10px 20px 20px;
+}
+
+.timeline-text {
+    background: var(--vp-home-hero-name-background);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+
+.VPHome {
+    margin-bottom: 24px !important;
+}
+
+/*** HOME Footer ***/
+.VPFooter {
+    padding: 12px !important;
+}
+
+
+
+/*** ABOUT ***/
+.vpi-social-wechat {
+    --icon: url('/public/wechat.svg');
+}
+.vpi-social-bilibili {
+    --icon: url('/public/bilibili.svg');
+}
