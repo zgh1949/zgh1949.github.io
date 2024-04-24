@@ -11,41 +11,8 @@ hero:
     alt: max
   actions:
     - theme: false
-      text: '#当前页大纲'
-      link: /posts/note/
-    - theme: false
-      text: '#点击下面的按钮快速导航'
-      link: /posts/note/
-    - theme: false
-      text: '#点击下面的按钮快速导航'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '#欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '欢迎莅临仿生草'
-      link: /posts/note/
-    - theme: false
-      text: '欢迎莅临仿生草'
-      link: /posts/note/
+      text: '#正向代理和反向代理的不同'
+      link: /posts/note/正向代理和反向代理的不同
 
 features:
   - icon:
