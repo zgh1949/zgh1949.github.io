@@ -77,7 +77,7 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: 'https://github.com/zgh1949/blog/edit/main/docs/:path',
+            pattern: 'https://github.com/zgh1949/zgh1949.github.io/edit/main/docs/:path',
             text: '在GitHub编辑本页'
         },
 
