@@ -7,6 +7,19 @@ import timeline from "vitepress-markdown-timeline";
 export default defineConfig({
     title: "zgh1949",
     description: "my blog",
+
+    head: [
+        ['link', {
+            rel: 'icon',
+            href: 'favicon.ico'
+        }],
+        ['script', {
+            defer: true,
+            src: 'https://analytics.eu.umami.is/script.js',
+            'data-website-id': '999c665d-b59d-4143-a569-835f3099af48'
+        }]
+    ],
+
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
@@ -85,17 +98,6 @@ export default defineConfig({
             provider: 'local'
         },
 
-        head: [
-            ['link', {
-                rel: 'icon',
-                href: 'favicon.ico'
-            }],
-            ['script', {
-                defer: true,
-                src: 'https://analytics.eu.umami.is/script.js',
-                'data-website-id': '999c665d-b59d-4143-a569-835f3099af48'
-            }]
-        ],
 
         cleanUrls: true,
         lastUpdated: true,
