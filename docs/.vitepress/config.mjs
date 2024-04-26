@@ -2,6 +2,7 @@ import {
     defineConfig
 } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
+import footnote_plugin from "markdown-it-footnote";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,11 +57,20 @@ export default defineConfig({
                     ]
                 },
                 {
-                    text: 'spring',
+                    text: 'Spring',
                     items: [
                         {
                             text: 'AOP三种织入方式',
                             link: '/posts/note/AOP三种织入方式'
+                        },
+                    ]
+                },
+                {
+                    text: '算法',
+                    items: [
+                        {
+                            text: '时间复杂度与空间复杂度',
+                            link: '/posts/note/时间复杂度与空间复杂度'
                         },
                     ]
                 },
@@ -144,14 +154,14 @@ export default defineConfig({
         image: {
             lazyLoading: true
         },
-        // Todo 该配置启动报错
         // 数学方程支持，先执行 npm add -D markdown-it-mathjax3
-        // math: true
+        math: true,
         //行号显示
         lineNumbers: true,
         //时间线
         config: (md) => {
             md.use(timeline);
+            md.use(footnote_plugin);
         },
     },
     sitemap: {
