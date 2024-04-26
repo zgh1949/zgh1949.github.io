@@ -30,6 +30,10 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+::: timeline 2024-04-26
+- 📄[AOP三种织入方式](./posts/note/AOP三种织入方式.md)
+:::
+
 ::: timeline 2024-04-24
 - 🏗️自定义博客样式
 :::

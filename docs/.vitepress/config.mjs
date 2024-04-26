@@ -55,6 +55,15 @@ export default defineConfig({
                         },
                     ]
                 },
+                {
+                    text: 'spring',
+                    items: [
+                        {
+                            text: 'AOP三种织入方式',
+                            link: '/posts/note/AOP三种织入方式'
+                        },
+                    ]
+                },
             ],
 
             '/posts/life': [
