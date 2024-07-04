@@ -30,6 +30,11 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+::: timeline 2024-07-04
+- 📄[settings.gradle和build.gradle区别](./posts/note/settings.gradle和build.gradle区别.md)
+- 📄[Android Studio 配置 gradle](./posts/note/Android Studio 配置 gradle.md)
+:::
+
 ::: timeline 2024-04-26
 - 📄[AOP三种织入方式](./posts/note/AOP三种织入方式.md)
 - 📄[时间复杂度与空间复杂度](./posts/note/时间复杂度与空间复杂度.md)

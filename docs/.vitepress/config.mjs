@@ -66,6 +66,24 @@ export default defineConfig({
                     ]
                 },
                 {
+                    text: 'Android',
+                    items: [
+                        {
+                            text: 'settings.gradle和build.gradle区别',
+                            link: '/posts/note/settings.gradle和build.gradle区别'
+                        },
+                    ]
+                },
+                {
+                    text: 'Android',
+                    items: [
+                        {
+                            text: 'Android Studio 配置 gradle',
+                            link: '/posts/note/Android Studio 配置 gradle'
+                        },
+                    ]
+                },
+                {
                     text: '算法',
                     items: [
                         {
