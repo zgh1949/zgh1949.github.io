@@ -32,7 +32,7 @@ features:
 
 ::: timeline 2024-07-04
 - 📄[settings.gradle和build.gradle区别](./posts/note/settings.gradle和build.gradle区别.md)
-- 📄[Android Studio 配置 gradle](./posts/note/Android Studio配置 gradle.md)
+- 📄[Android Studio 配置 gradle](./posts/note/AndroidStudio配置gradle.md)
 :::
 
 ::: timeline 2024-04-26
