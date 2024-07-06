@@ -30,6 +30,11 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+::: timeline 2024-07-06
+- 📄[ViewBinding](./posts/note/ViewBinding.md)
+- 📄[Android Studio 配置 gradle](./posts/note/AndroidStudio配置gradle.md)
+  :::
+
 ::: timeline 2024-07-04
 - 📄[settings.gradle和build.gradle区别](./posts/note/settings.gradle和build.gradle区别.md)
 - 📄[Android Studio 配置 gradle](./posts/note/AndroidStudio配置gradle.md)

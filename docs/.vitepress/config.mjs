@@ -76,6 +76,10 @@ export default defineConfig({
                             text: 'Android Studio 配置 gradle',
                             link: '/posts/note/AndroidStudio配置gradle'
                         },
+                        {
+                            text: 'ViewBinding的使用',
+                            link: '/posts/note/ViewBinding'
+                        },
                     ]
                 },
                 {
