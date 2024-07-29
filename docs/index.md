@@ -31,7 +31,7 @@ features:
 <span class="timeline-text">TIMELINE</span>
 
 ::: timeline 2024-07-29
-- 🏗️更改nav的菜单项
+- 🏗️更改nav的菜单项、修改其他样式
 :::
 
 ::: timeline 2024-07-06
