@@ -17,16 +17,16 @@ hero:
 features:
   - icon:
       src: /Dog.gif
-    title: 学如逆水行舟，不进则退
-    details: Learning is like rowing upstream; halt and you drift backwards
-  - icon:
-      src: /Horse.png
-    title: 家庭是父亲的王国，母亲的世界，儿童的乐园
-    details:  Family is the kingdom of the father, the mother's world, children's paradise.
+    title: 实践出真知
+    details: Experience is the best teacher.
   - icon:
       src: /ButterflyAnimated.gif
-    title: 生如夏花之绚烂，死如秋叶之静美。
-    details: Let life be beautiful like summer flowers and death like autumn leaves.
+    title: 岁月不待人
+    details: Time and tide wait for no man.
+  - icon:
+      src: /Horse.png
+    title: 精诚所至，金石为开
+    details: Faith can move mountains.
 ---
 <span class="timeline-text">TIMELINE</span>
 
