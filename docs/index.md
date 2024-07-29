@@ -5,14 +5,15 @@ layout: home
 hero:
   name: zgh1949.space
   text: 欢迎莅临仿生草<sup>©</sup>牧场
-  tagline: 点击下面的按钮快速导航
+  #  tagline: 点击下面的按钮快速导航
+  tagline: " "
   image:
     src: Banner_Right.png
     alt: max
-  actions:
-    - theme: false
-      text: '#正向代理和反向代理的不同'
-      link: /posts/note/正向代理和反向代理的不同
+#  actions:
+#    - theme: false
+#      text: '#正向代理和反向代理的不同'
+#      link: /posts/note/正向代理和反向代理的不同
 
 features:
   - icon:

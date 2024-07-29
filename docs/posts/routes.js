@@ -52,7 +52,7 @@ export const sidebarRoutes = {
 
 export const navRoutes = [
     {
-        text: 'HOME', link: '/'
+        text: 'Home', link: '/'
     },
     {
         text: 'Base', link: '/posts/base/'
