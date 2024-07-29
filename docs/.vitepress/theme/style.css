@@ -319,3 +319,13 @@
 .vpi-social-bilibili {
     --icon: url('/public/bilibili.svg');
 }
+
+/* 对于 Firefox */
+html {
+    scrollbar-width: none !important;
+}
+
+/* 对于 Chrome、Safari 等 */
+html::-webkit-scrollbar {
+    display: none !important;
+}
