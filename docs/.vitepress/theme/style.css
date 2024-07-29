@@ -169,10 +169,8 @@
     padding-bottom: 128px;
 }
 
-.dark {
-    .VPContent.is-home {
-        background-image: none
-    }
+.dark .VPContent.is-home {
+    background-image: none
 }
 
 
@@ -184,23 +182,48 @@
     }
 }
 
-/* home */
-:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a.VPLink.link.VPNavBarMenuLink.active > span {
+/* Nav Text Color*/
+/*:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a.VPLink.link.VPNavBarMenuLink.active > span {*/
+/*    filter: grayscale(1) contrast(999) invert(1)*/
+/*}*/
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(1) > span {
     filter: grayscale(1) contrast(999) invert(1)
 }
 
-/* notes */
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(2) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
 :not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(3) > span {
     filter: grayscale(1) contrast(999) invert(1)
 }
 
-/* life */
 :not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(4) > span {
     filter: grayscale(1) contrast(999) invert(1)
 }
 
-/* about */
 :not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(5) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(6) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(7) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(8) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(9) > span {
+    filter: grayscale(1) contrast(999) invert(1)
+}
+
+:not(.dark) > body > div > div > header > div.home.top > div.wrapper > div > div.content > div > nav > a:nth-child(10) > span {
     filter: grayscale(1) contrast(999) invert(1)
 }
 
@@ -288,11 +311,11 @@
 }
 
 
-
 /*** ABOUT ***/
 .vpi-social-wechat {
     --icon: url('/public/wechat.svg');
 }
+
 .vpi-social-bilibili {
     --icon: url('/public/bilibili.svg');
 }

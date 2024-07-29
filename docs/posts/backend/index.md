@@ -1,0 +1,44 @@
+主要内容有：
+
+- Java基础
+- Java类库
+    - FastJson
+    - JackJson
+    - Gson
+    - Guava
+    - Hutool
+    - shiro
+    - jwt
+    - Netty
+    - Drools
+    - slf4j
+    - logback
+- 中间件
+- Spring
+- Spring Cloud
+- 数据库
+    - MYSQL
+    - 数据源
+        - C3P0
+        - Druid
+    - 分库分表
+        - MyCat
+        - Shading-Jdbc
+    - NoSql
+        - Redis
+        - MongoDB
+        - Memcached
+        - Neo4j
+    - ORM框架
+        - Mybatis
+        - SpringData JPA
+    - 数据库中间件
+        - Canal
+- 架构模式
+    - 单体应用
+    - 微服务
+    - SOA
+    - MVC
+- 设计和开发原则
+    - 领域驱动设计DDD
+    - 测试驱动开发

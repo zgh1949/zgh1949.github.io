@@ -1,6 +1,7 @@
 import {
     defineConfig
 } from 'vitepress'
+import {navRoutes, sidebarRoutes} from '../posts/routes.js'
 import timeline from "vitepress-markdown-timeline";
 import footnote_plugin from "markdown-it-footnote";
 
@@ -25,95 +26,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
         siteTitle: '仿生草牧场',
-
-        nav: [
-            {
-                text: '首页',
-                link: '/'
-            },
-            {
-                text: '笔记',
-                link: '/posts/note/'
-            },
-            {
-                text: '行知',
-                link: '/posts/life/'
-            },
-            {
-                text: '关于',
-                link: '/posts/About'
-            }
-        ],
-
-        sidebar: {
-            '/posts/note/': [
-                {
-                    text: '架构',
-                    items: [
-                        {
-                            text: '反向代理与正向代理的区别',
-                            link: '/posts/note/反向代理与正向代理'
-                        },
-                    ]
-                },
-                {
-                    text: 'Spring',
-                    items: [
-                        {
-                            text: 'AOP三种织入方式',
-                            link: '/posts/note/AOP三种织入方式'
-                        },
-                    ]
-                },
-                {
-                    text: 'Android',
-                    items: [
-                        {
-                            text: 'settings.gradle和build.gradle区别',
-                            link: '/posts/note/settings.gradle和build.gradle区别'
-                        },
-                        {
-                            text: 'Android Studio 配置 gradle',
-                            link: '/posts/note/AndroidStudio配置gradle'
-                        },
-                        {
-                            text: 'ViewBinding的使用',
-                            link: '/posts/note/ViewBinding'
-                        },
-                    ]
-                },
-                {
-                    text: '算法',
-                    items: [
-                        {
-                            text: '时间复杂度与空间复杂度',
-                            link: '/posts/note/时间复杂度与空间复杂度'
-                        },
-                    ]
-                },
-            ],
-
-            '/posts/life': [
-                {
-                    text: '美食',
-                    items: [
-                        {
-                            text: '美食',
-                            link: '/posts/life/foods/'
-                        }
-                    ]
-                },
-                {
-                    text: '游戏',
-                    items: [
-                        {
-                            text: '游戏',
-                            link: '/posts/life/game/'
-                        }
-                    ]
-                }
-            ],
-        },
+        nav: navRoutes,
+        sidebar: sidebarRoutes,
 
         socialLinks: [{
             icon: 'github',
@@ -133,7 +47,6 @@ export default defineConfig({
         search: {
             provider: 'local'
         },
-
 
         cleanUrls: true,
         lastUpdated: true,
@@ -182,6 +95,6 @@ export default defineConfig({
         },
     },
     sitemap: {
-        hostname: 'https://zgh1949.com' // 在根目录生成sitemap.xml，用于SEO优化
+        hostname: 'https://zgh1949.space' // 在根目录生成sitemap.xml，用于SEO优化
     },
 })

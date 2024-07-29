@@ -1,0 +1,29 @@
+主要内容有：
+
+- 运行环境
+    - Linux
+- 代码托管
+    - Github
+    - Gitlab
+- 版本控制
+    - Git
+- 开发工具
+    - IDEA
+- 依赖管理
+    - Maven
+    - Gradle
+- CI&CD
+    - jenkins
+- 服务器
+    - Nginx
+    - Apache
+    - Tomcat
+- 容器化
+    - Docker
+    - K8S
+- 服务化
+    - PaaS
+    - SaaS
+    - IaaS
+- 云原生
+    - Istio

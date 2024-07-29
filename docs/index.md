@@ -31,18 +31,18 @@ features:
 <span class="timeline-text">TIMELINE</span>
 
 ::: timeline 2024-07-06
-- 📄[ViewBinding](./posts/note/ViewBinding.md)
-- 📄[Android Studio 配置 gradle](./posts/note/AndroidStudio配置gradle.md)
+- 📄[ViewBinding](posts/android/ViewBinding.md)
+- 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
   :::
 
 ::: timeline 2024-07-04
-- 📄[settings.gradle和build.gradle区别](./posts/note/settings.gradle和build.gradle区别.md)
-- 📄[Android Studio 配置 gradle](./posts/note/AndroidStudio配置gradle.md)
+- 📄[settings.gradle和build.gradle区别](posts/android/settings.gradle和build.gradle区别.md)
+- 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
 :::
 
 ::: timeline 2024-04-26
-- 📄[AOP三种织入方式](./posts/note/AOP三种织入方式.md)
-- 📄[时间复杂度与空间复杂度](./posts/note/时间复杂度与空间复杂度.md)
+- 📄[AOP三种织入方式](posts/backend/AOP三种织入方式.md)
+- 📄[时间复杂度与空间复杂度](posts/base/时间复杂度与空间复杂度.md)
 :::
 
 ::: timeline 2024-04-24
@@ -51,6 +51,6 @@ features:
 
 ::: timeline 2024-04-23
 - 🚩博客部署成功
-- 📄[正向代理和反向代理](./posts/note/反向代理与正向代理.md)
+- 📄[正向代理和反向代理](posts/base/反向代理与正向代理.md)
 :::
 

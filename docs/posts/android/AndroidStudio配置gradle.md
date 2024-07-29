@@ -1,8 +1,7 @@
 Andriod Studio安装好后，新建一个项目，修改其中两个文件，然后进行编译即可
 
-gradle仓库地址
+gradle仓库地址 settings.gradle.kts
 ```groovy
-// settings.gradle.kts
 pluginManagement {
     repositories {
         maven { url = uri("https://maven.aliyun.com/repository/public") }
@@ -33,9 +32,8 @@ dependencyResolutionManagement {
 }
 
 ```
-gradle地址
+gradle地址 gradle/wrapper/gradle-wrapper.properties
 ```
-// gradle/wrapper/gradle-wrapper.properties
 distributionBase=GRADLE_USER_HOME
 distributionPath=wrapper/dists
 distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-8.8-bin.zip
