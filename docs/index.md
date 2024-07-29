@@ -30,6 +30,10 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+::: timeline 2024-07-2*
+- 🏗️更改nav的菜单项
+:::
+
 ::: timeline 2024-07-06
 - 📄[ViewBinding](posts/android/ViewBinding.md)
 - 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
