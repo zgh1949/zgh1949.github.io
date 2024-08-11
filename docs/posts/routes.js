@@ -75,7 +75,6 @@ export const navRoutes = [
     {
         text: 'AI', link: '/posts/ai/'
     },
-
     {
         text: 'About', link: '/posts/about/'
     }
