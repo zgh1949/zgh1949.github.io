@@ -25,6 +25,14 @@ export const sidebarRoutes = {
                 },
             ]
         },
+        {
+            text: '📊Mysql',
+            items: [
+                {
+                    text: 'Mysql长连接导致内存过高案例', link: '/posts/backend/Mysql长连接导致内存过高案例'
+                },
+            ]
+        },
     ],
 
     '/posts/android': [

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: zgh1949.space
-  text: 欢迎莅临仿生草<sup>©</sup>牧场
+  text: 欢迎莅临仿生草<sup>©</sup>牧场`
   #  tagline: 点击下面的按钮快速导航
   tagline: " "
   image:
@@ -31,14 +31,20 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+
+::: timeline 2024-08-11
+- 📄[Mysql长连接导致内存过高案例](/posts/backend/Mysql长连接导致内存过高案例.md)
+:::
+
 ::: timeline 2024-07-29
 - 🏗️更改nav的菜单项、修改其他样式
 :::
 
+
 ::: timeline 2024-07-06
 - 📄[ViewBinding](posts/android/ViewBinding.md)
 - 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
-  :::
+:::
 
 ::: timeline 2024-07-04
 - 📄[settings.gradle和build.gradle区别](posts/android/settings.gradle和build.gradle区别.md)
