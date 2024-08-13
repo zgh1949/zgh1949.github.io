@@ -1,7 +1,7 @@
 export const sidebarRoutes = {
     "/posts/base": [
         {
-            text: '🧮算法',
+            text: '🧮 算法',
             items: [
                 {
                     text: '时间复杂度与空间复杂度', link: '/posts/base/时间复杂度与空间复杂度'
@@ -9,7 +9,7 @@ export const sidebarRoutes = {
             ]
         },
         {
-            text: '🪜架构',
+            text: '🪜 架构',
             items: [{
                 text: '反向代理与正向代理的区别', link: '/posts/base/反向代理与正向代理'
             },]
@@ -18,7 +18,7 @@ export const sidebarRoutes = {
 
     '/posts/backend/': [
         {
-            text: '🍃Spring',
+            text: '🍃 Spring',
             items: [
                 {
                     text: 'AOP三种织入方式', link: '/posts/backend/AOP三种织入方式'
@@ -26,7 +26,7 @@ export const sidebarRoutes = {
             ]
         },
         {
-            text: '📊Mysql',
+            text: '📊 Mysql',
             items: [
                 {
                     text: 'Mysql长连接导致内存过高案例', link: '/posts/backend/Mysql长连接导致内存过高案例'
@@ -40,7 +40,7 @@ export const sidebarRoutes = {
 
     '/posts/android': [
         {
-            text: '📦关于Gradle',
+            text: '📦 关于Gradle',
             items: [
                 {
                     text: 'settings.gradle和build.gradle区别', link: '/posts/android/settings.gradle和build.gradle区别'
@@ -51,7 +51,7 @@ export const sidebarRoutes = {
             ]
         },
         {
-            text: '📱安卓原生',
+            text: '📱 安卓原生',
             items: [
                 {
                     text: 'ViewBinding的使用', link: '/posts/android/ViewBinding'

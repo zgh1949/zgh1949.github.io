@@ -41,7 +41,7 @@ export default defineConfig({
 
         editLink: {
             pattern: 'https://github.com/zgh1949/zgh1949.github.io/edit/main/docs/:path',
-            text: '在GitHub编辑本页'
+            text: 'GitHub'
         },
 
         search: {
@@ -50,18 +50,18 @@ export default defineConfig({
 
         cleanUrls: true,
         lastUpdated: true,
-        lastUpdatedText: '更新时间',
+        lastUpdatedText: '⏳',
 
         //大纲显示2-3级标题
         outline: {
             level: [2, 3],
-            label: '当前页大纲'
+            label: '🔖'
         },
 
         //自定义上下页名
         docFooter: {
-            prev: '上一页',
-            next: '下一页',
+            prev: '🔙',
+            next: '🔜',
         },
 
         //侧边栏文字更改(移动端)
