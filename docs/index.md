@@ -31,6 +31,9 @@ features:
 ---
 <span class="timeline-text">TIMELINE</span>
 
+::: timeline 2024-08-13
+- 📄[数据库连接池该如何配置](/posts/backend/数据库连接池该如何配置.md)
+:::
 
 ::: timeline 2024-08-11
 - 📄[Mysql长连接导致内存过高案例](/posts/backend/Mysql长连接导致内存过高案例.md)
