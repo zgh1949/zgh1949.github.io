@@ -26,7 +26,7 @@ export const sidebarRoutes = {
             ]
         },
         {
-            text: '📊Mysql',数据库连接池该如何配置
+            text: '📊Mysql',
             items: [
                 {
                     text: 'Mysql长连接导致内存过高案例', link: '/posts/backend/Mysql长连接导致内存过高案例'
