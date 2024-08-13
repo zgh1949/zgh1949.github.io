@@ -38,15 +38,15 @@ export const sidebarRoutes = {
         },
     ],
 
-    '/posts/android': [
+    '/posts/mobile': [
         {
             text: '📦 关于Gradle',
             items: [
                 {
-                    text: 'settings.gradle和build.gradle区别', link: '/posts/android/settings.gradle和build.gradle区别'
+                    text: 'settings.gradle和build.gradle区别', link: '/posts/mobile/settings.gradle和build.gradle区别'
                 },
                 {
-                    text: 'Android Studio 配置 gradle', link: '/posts/android/AndroidStudio配置gradle'
+                    text: 'Android Studio 配置 gradle', link: '/posts/mobile/AndroidStudio配置gradle'
                 },
             ]
         },
@@ -54,7 +54,7 @@ export const sidebarRoutes = {
             text: '📱 安卓原生',
             items: [
                 {
-                    text: 'ViewBinding的使用', link: '/posts/android/ViewBinding'
+                    text: 'ViewBinding的使用', link: '/posts/mobile/ViewBinding'
                 },
             ]
         }
@@ -63,29 +63,29 @@ export const sidebarRoutes = {
 
 export const navRoutes = [
     {
-        text: 'Home', link: '/'
+        text: 'HOME', link: '/'
     },
     {
-        text: 'Base', link: '/posts/base/'
+        text: 'BASE', link: '/posts/base/'
     },
     {
-        text: 'Backend', link: '/posts/backend/'
+        text: 'BACKEND', link: '/posts/backend/'
+    },
+    // {
+    //     text: 'FRONTEND', link: '/posts/frontend/'
+    // },
+    {
+        text: 'DEVOPS', link: '/posts/devops/'
     },
     {
-        text: 'Frontend', link: '/posts/frontend/'
+        text: 'MOBILE', link: '/posts/android/'
     },
-    {
-        text: 'DevOps', link: '/posts/devops/'
-    },
-    {
-        text: 'Android', link: '/posts/android/'
-    },
-    {
-        text: 'Big Data', link: '/posts/bigdata/'
-    },
-    {
-        text: 'AI', link: '/posts/ai/'
-    },
+    // {
+    //     text: 'BIGDATA', link: '/posts/bigdata/'
+    // },
+    // {
+    //     text: 'AI', link: '/posts/ai/'
+    // },
     {
         text: 'About', link: '/posts/about/'
     }
