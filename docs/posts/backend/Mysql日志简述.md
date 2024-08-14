@@ -1,28 +1,25 @@
 
 
+## 日志类型
 
+|        日志类型         |                        描述                        |
+| :---------------------: | :------------------------------------------------: |
+|        Error Log        |               启动或者运行时错误日志               |
+|    General Query Log    |               记录所有收到 SQL 语句                |
+|       Binary Log        |     记录所有修改数据库内容的日志（宜用于复制）     |
+|        Relay Log        | 复制过程中，从服务器用它来暂存从主服务器收到的日志 |
+|     Slow Query Log      |        记录超过“long_query_time”的 SQL查询         |
+| DDL Log（Matedata Log） |                 记录 DDL 相关操作                  |
 
-| 日志类型 | 描述 |
-| -------- | ---- |
-|          |      |
-|          |      |
-|          |      |
-
-
-
-
-
-```java
-public class news{
-    public static void main(String[] args){
-        System.out.println("Hello World!");
-    }
-}
-```
+默认情况下，除了Error Log，其他日志都是被关闭的。
 
 
 
+::: warn
 
+#todo
+
+:::
 
 ## redo.log
 
