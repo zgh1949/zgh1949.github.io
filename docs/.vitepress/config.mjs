@@ -88,12 +88,16 @@ export default withMermaid({
         // 数学方程支持，先执行 npm add -D markdown-it-mathjax3
         math: true,
         //行号显示
-        lineNumbers: true,
+        lineNumbers: false,
         //时间线
         config: (md) => {
             md.use(timeline);
             md.use(footnote_plugin);
         },
+        // TOC
+        toc:{
+            level:[1,2]
+        }
     },
     sitemap: {
         hostname: 'https://zgh1949.space' // 在根目录生成sitemap.xml，用于SEO优化
