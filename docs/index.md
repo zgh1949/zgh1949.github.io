@@ -6,7 +6,7 @@ hero:
   name: zgh1949.space
   text: 仿生草牧场<sup>©</sup>
   #  tagline: 点击下面的按钮快速导航
-  tagline: ".... - - .--. ... ---... -..-. -..-. -- ..- ... .. -.-. ..-. --- .-. .--. .-. --- --. .-. .- -- -- .. -. --. .-.-.- -. . - -..-."
+  tagline: "\n\n\n\n\n"
   image:
     src: Banner_Right.png
     alt: max
