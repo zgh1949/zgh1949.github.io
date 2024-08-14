@@ -87,6 +87,6 @@ export const navRoutes = [
     //     text: 'AI', link: '/posts/ai/'
     // },
     {
-        text: 'About', link: '/posts/about/'
+        text: 'ABOUT', link: '/posts/about/'
     }
 ];
