@@ -78,7 +78,7 @@ export const navRoutes = [
         text: 'DEVOPS', link: '/posts/devops/'
     },
     {
-        text: 'MOBILE', link: '/posts/android/'
+        text: 'MOBILE', link: '/posts/mobile/'
     },
     // {
     //     text: 'BIGDATA', link: '/posts/bigdata/'
