@@ -45,13 +45,13 @@ features:
 
 
 ::: timeline 2024-07-06
-- 📄[ViewBinding](posts/android/ViewBinding.md)
-- 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
+- 📄[ViewBinding](posts/mobile/ViewBinding.md)
+- 📄[Android Studio 配置 gradle](posts/mobile/AndroidStudio配置gradle.md)
 :::
 
 ::: timeline 2024-07-04
-- 📄[settings.gradle和build.gradle区别](posts/android/settings.gradle和build.gradle区别.md)
-- 📄[Android Studio 配置 gradle](posts/android/AndroidStudio配置gradle.md)
+- 📄[settings.gradle和build.gradle区别](posts/mobile/settings.gradle和build.gradle区别.md)
+- 📄[Android Studio 配置 gradle](posts/mobile/AndroidStudio配置gradle.md)
 :::
 
 ::: timeline 2024-04-26
