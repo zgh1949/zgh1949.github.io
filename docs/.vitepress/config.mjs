@@ -4,9 +4,10 @@ import {
 import {navRoutes, sidebarRoutes} from '../posts/routes.js'
 import timeline from "vitepress-markdown-timeline";
 import footnote_plugin from "markdown-it-footnote";
+import { withMermaid } from 'vitepress-plugin-mermaid';
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
     title: "zgh1949",
     description: "my blog",
 

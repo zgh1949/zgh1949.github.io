@@ -34,6 +34,9 @@ export const sidebarRoutes = {
                 {
                     text: '数据库连接池该如何配置', link: '/posts/backend/数据库连接池该如何配置'
                 },
+                {
+                    text: 'Mysql 日志简述', link: '/posts/backend/mysql日志简述'
+                },
             ]
         },
     ],
