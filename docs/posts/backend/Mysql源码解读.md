@@ -5,10 +5,10 @@
 可以直接在github上获取mysql最新源码：
 
 ```bash
-git clone -depth=1 https://github.com/mysql/mysql-server.git
+git clone --depth=1 https://github.com/mysql/mysql-server.git
 ```
 
-注：加上参数`-depth=1`可以忽略 git的提交历史，可有效减少克隆的大小
+注：加上参数`--depth=1`可以忽略 git的提交历史，可有效减少克隆的大小
 
 ## 包结构分析
 
@@ -64,8 +64,6 @@ tree -dL 2  #d代表只展示文件夹，L表示目录深度
 
 **client** 包：mysql 客户端，实现服务器如何交互。
 
-**mysys**包：mysql的依赖库及对底层系统的封装。
-
 
 
 # sql包的解析
@@ -95,7 +93,7 @@ tree -dL 2  #d代表只展示文件夹，L表示目录深度
 
 **基本信息**
 
-- 位置：这个类位于sql_class.h。
+- 位置：这个类位于`sql_class.h`。
 - 作用：每建立一个连接，都会有一个THD对象与之对应，记录连接的状态信息。
 
 主要的属性：
@@ -115,8 +113,6 @@ tree -dL 2  #d代表只展示文件夹，L表示目录深度
 - **`m_transactional_ddl`**: 用于事务处理的数据字典变更的上下文。
 - **`m_transaction_psi`**: 用于性能schema的事务上下文。
 - **`transaction_rollback_request`**: 指示是否请求事务回滚的标志。
-
-主要的方法：
 
 ## 事务源码 ↓
 
@@ -281,31 +277,36 @@ int TC_LOG_MMAP::prepare(THD *thd, bool all) {
 
 ```c++
 // commit
-TC_LOG::enum_result TC_LOG_MMAP::commit(THD *thd, bool all) {
-  DBUG_TRACE;
-  ulong cookie = 0;
-  const my_xid xid =
-      thd->get_transaction()->xid_state()->get_xid()->get_my_xid();
-
-  if (all) {
-    CONDITIONAL_SYNC_POINT_FOR_TIMESTAMP("before_commit_in_tc");
-    if (xid)
-      if (!(cookie = log_xid(xid)))
-        return RESULT_ABORTED;  // Failed to log the transaction
-  }
-
-  if (trx_coordinator::commit_in_engines(thd, all))
-    return RESULT_INCONSISTENT;  // Transaction logged, if not XA , but not
-                                 // committed
-
-  /* If cookie is non-zero, something was logged */
-  if (cookie) unlog(cookie, xid);
-
-  return RESULT_SUCCESS;
+TC_LOG::enum_result TC_LOG_MMAP::commit(THD *thd, bool all) {  
+    
+  // 获取当前事务的XID（全局事务ID）  
+  const my_xid xid = thd->get_transaction()->xid_state()->get_xid()->get_my_xid();  
+  
+  if (all) {  
+    // 如果需要提交所有事务  
+    CONDITIONAL_SYNC_POINT_FOR_TIMESTAMP("before_commit_in_tc"); // 可能的同步点或时间戳标记  
+  
+    // 如果事务有XID（即是一个XA事务），则尝试记录XID到日志中  
+    if (xid)  
+      if (!(cookie = log_xid(xid))) // 尝试记录XID，并获取cookie  
+        return RESULT_ABORTED; // 如果记录失败，则返回RESULT_ABORTED  
+  }  
+  
+  // 调用trx_coordinator的commit_in_engines函数来在存储引擎中提交事务  
+  // 如果该函数返回非零值，表示事务在存储引擎层面遇到了问题  
+  if (trx_coordinator::commit_in_engines(thd, all))  
+    return RESULT_INCONSISTENT; // 返回RESULT_INCONSISTENT，表示事务已记录但未能完全提交  
+  
+  // 如果cookie非零，表示之前成功记录了XID到日志中  
+  if (cookie)  
+    unlog(cookie, xid); // 调用unlog函数来取消记录（可能是清理日志或标记为已提交）  
+  
+  return RESULT_SUCCESS; // 返回RESULT_SUCCESS，表示事务成功提交  
 }
 ```
 
 ```c++
+// rollback
 int TC_LOG_MMAP::rollback(THD *thd, bool all) {
   if (all) {
     CONDITIONAL_SYNC_POINT_FOR_TIMESTAMP("before_rollback_in_tc");
