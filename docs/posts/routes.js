@@ -23,6 +23,9 @@ export const sidebarRoutes = {
                 {
                     text: 'AOP三种织入方式', link: '/posts/backend/AOP三种织入方式'
                 },
+                {
+                    text: '参数校验', link: '/posts/backend/参数校验'
+                },
             ]
         },
         {
@@ -35,7 +38,7 @@ export const sidebarRoutes = {
                     text: '数据库连接池该如何配置', link: '/posts/backend/数据库连接池该如何配置'
                 },
                 {
-                    text: 'Mysql 日志简述', link: '/posts/backend/mysql日志简述'
+                    text: 'Mysql 日志简述', link: '/posts/backend/Mysql日志简述'
                 },
             ]
         },
