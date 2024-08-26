@@ -53,10 +53,10 @@ export default withMermaid({
         lastUpdated: true,
         lastUpdatedText: '⏳',
 
-        //大纲显示2-3级标题
+        //大纲显示1-2级标题
         outline: {
-            level: [2, 3],
-            label: '🔖'
+            level: [1, 2],
+            label: '目录'
         },
 
         //自定义上下页名

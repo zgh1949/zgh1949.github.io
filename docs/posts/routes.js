@@ -27,18 +27,40 @@ export const sidebarRoutes = {
                     text: '参数校验', link: '/posts/backend/参数校验'
                 },
             ]
-        },
+        }
+    ],
+    '/posts/database/': [
         {
             text: '📊 Mysql',
             items: [
                 {
-                    text: 'Mysql长连接导致内存过高案例', link: '/posts/backend/Mysql长连接导致内存过高案例'
+                    text: 'Mysql 多数据源', link: '/posts/database/多数据源'
                 },
                 {
-                    text: '数据库连接池该如何配置', link: '/posts/backend/数据库连接池该如何配置'
+                    text: 'Mysql 日志简述', link: '/posts/database/Mysql日志简述'
                 },
                 {
-                    text: 'Mysql 日志简述', link: '/posts/backend/Mysql日志简述'
+                    text: 'Mysql长连接导致内存过高案例', link: '/posts/database/Mysql长连接导致内存过高案例'
+                },
+            ]
+        },
+        {
+            text: '🐦 Mybatis',
+            items: [
+                {
+                    text: '多数据源', link: '/posts/database/多数据源'
+                },
+                {
+                    text: 'Mybatis简述', link: '/posts/database/Mybatis简述'
+                },
+
+            ]
+        },
+        {
+            text: '🐣 连接池',
+            items: [
+                {
+                    text: '数据库连接池该如何配置', link: '/posts/database/数据库连接池该如何配置'
                 },
             ]
         },
@@ -65,6 +87,16 @@ export const sidebarRoutes = {
             ]
         }
     ],
+    '/posts/other': [
+        {
+            text: '🅿️ PS',
+            items: [
+                {
+                    text: 'PS笔记', link: '/posts/other/ps'
+                },
+            ]
+        },
+    ],
 };
 
 export const navRoutes = [
@@ -81,8 +113,11 @@ export const navRoutes = [
     //     text: 'FRONTEND', link: '/posts/frontend/'
     // },
     {
-        text: 'DEVOPS', link: '/posts/devops/'
+        text: 'DATABASE', link: '/posts/database/'
     },
+    // {
+    //     text: 'DEVOPS', link: '/posts/devops/'
+    // },
     {
         text: 'MOBILE', link: '/posts/mobile/'
     },
@@ -92,6 +127,9 @@ export const navRoutes = [
     // {
     //     text: 'AI', link: '/posts/ai/'
     // },
+    {
+        text: 'OTHER', link: '/posts/other/'
+    },
     {
         text: 'ABOUT', link: '/posts/about/'
     }
